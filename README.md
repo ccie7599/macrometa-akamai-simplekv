@@ -14,11 +14,17 @@ Their studio environment and developer tools make it easy to get started with gl
 
 2. Login to the Macrometa playground via the "login" link on the macrometa.com homepage.
 
+![image](https://user-images.githubusercontent.com/19197357/223297413-e00ea537-d812-4581-ab26-e776ba86cc01.png)
+
 ## Creating a document KV database
 
 1. From the Playground homepage, choose "Collections" in the left-hand nav.
 
+![image](https://user-images.githubusercontent.com/19197357/223297515-ff54ff49-c1d7-4fe3-aae1-e25a33d89761.png)
+
 2. You should see some default collections present. Select "New Collection" at the top.
+
+![image](https://user-images.githubusercontent.com/19197357/223297653-ba609393-14c5-4c9e-b5fa-5416711012a3.png)
 
 3. Select "Document Store" as the type of collection you want to create. From there, name the collection, and choose "Global" as Geo-Replication type. Click on "Create" - you then should see your new collection in the list. 
 
@@ -28,6 +34,8 @@ Their studio environment and developer tools make it easy to get started with gl
 
 2. To add documents to the database, select the down arrow button at top - "Import Documents from Json File." From there, select the test1.json file included in this repository.
 
+![image](https://user-images.githubusercontent.com/19197357/223297931-cf59ff92-5e72-4f6e-97c5-73426642de7c.png)
+
 3. You should then see a list of keys/documents now saved in the Collection.
 
 ## Accessing the data via Macrometa API
@@ -35,6 +43,8 @@ Their studio environment and developer tools make it easy to get started with gl
 ### Create an API Key
 
 1. From the left hand menu, select "Account." This should bring you to the Account page. From there, at the top, select "Create New API Key." Give the key a name, and copy the value of the key once shown. 
+
+![image](https://user-images.githubusercontent.com/19197357/223298098-917b93d7-d6d7-4d0b-81c6-1a41034483f4.png)
 
 ###  Test the API Endpoint and Key
 
