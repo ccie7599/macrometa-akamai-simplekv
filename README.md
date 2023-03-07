@@ -41,3 +41,12 @@ Their studio environment and developer tools make it easy to get started with gl
 1. From the left hand menu, Select "API Reference." From the first screen, select "Use API Key" on the right hand side, and enter the API key you created.
 
 2. From here, you can obtain the API endpoint for your database, as well as sample commands to interact with your data. 
+
+Below is a sample API call to retrieve a json from a document database in Macrometa GDN-
+
+```
+curl -X 'GET' \
+  'https://api-bonytail-d58de20f-us-east.paas.macrometa.io/_fabric/_system/_api/document/Asd/2' \
+  -H 'accept: application/json' \
+  -H 'Authorization: apikey TiVLAbP8zRYmWczcLZ361Qw.test.EF1mv0oZPr00WFsJN82QHn5J15nRxJDAY9brG5Y3wk22tyimDaCJ6mREOQeSEfLS8bf910'
+  ```
