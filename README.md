@@ -26,7 +26,7 @@ Their studio environment and developer tools make it easy to get started with gl
 
 1. Click on the name of your new collection in the list, and you'll then see the details page for that collection. The key/data list should be empty.
 
-2. To add documents to the database, select the down arrow button at top - "Import Documents from Json File." From there, select the sample.json file included in this repository.
+2. To add documents to the database, select the down arrow button at top - "Import Documents from Json File." From there, select the test1.json file included in this repository.
 
 3. You should then see a list of keys/documents now saved in the Collection.
 
